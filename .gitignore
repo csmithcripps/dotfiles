@@ -1,7 +1,7 @@
 *
 !.vimrc
 !.bashrc
-!.vim/
 !.tmux.conf
 !.gitignore
 !.vim/colors/accentedVIM.vim
+!*.vim
