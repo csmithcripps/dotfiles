@@ -4,4 +4,4 @@
 !.tmux.conf
 !.gitignore
 !.vim/colors/accentedVIM.vim
-!.vim/*
+!.vim/**
