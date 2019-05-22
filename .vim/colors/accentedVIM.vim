@@ -18,10 +18,12 @@ let g:colors_name = "accentedVIM"
 
 "VARSET:Colours
 let s:olive         = 114
-let s:pink          = 211
-let s:purple        = 98 
-let s:blue          = 26
-let s:paleBlue      = 38
+let s:green         = 76
+let s:pink          = 213
+let s:purple        = 165
+let s:blue          = 25
+let s:paleBlue      = 74
+let s:orange        = 209
 let s:white         = 15
 let s:black         = 16
 let s:grey          = 234
@@ -90,13 +92,13 @@ endfunction
 "                                           be editted, indenting represents
 "                                           subsections)
 "   Comment:	any comment
-        call s:setSect("Comment",s:olive)
+        call s:setSect("Comment", s:olive)
 
 "	Constant:	any constant
-        call s:setSect("Constant",s:pink)
+        call s:setSect("Constant", s:pink)
 
 "	    String:		a string constant: "This is a string"
-            call s:setSect("String", s:olive)
+            call s:setSect("String", s:orange)
 
 "	    Character:	a character constant: 'c', '\n'
 "	    Number:		a number constant: 234, 0xff
@@ -104,13 +106,13 @@ endfunction
 "	    Float:		a floating point constant: 2.3e10
 
 "	Identifier:	any variable name
-        call s:setSect("Identifier", s:brightPink)
+        call s:setSect("Identifier", s:paleBlue)
 
 "	    Function:	function name (also: methods for classes)
             call s:setSect("Function", s:purple)
 
 "	Statement:	any statement
-        call s:setSect("Statement", s:paleBlue)
+        call s:setSect("Statement", s:blue)
 
 "	    Conditional:    if, then, else, endif, switch, etc.
 "	    Repeat:	    	for, do, while, etc.
