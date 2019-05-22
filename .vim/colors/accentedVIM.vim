@@ -1,10 +1,9 @@
 " Vim color scheme
 "
-" Name:         blackboard.vim
-" Maintainer:   Ben Wyrosdick <ben.wyrosdick@gmail.com>
-" Last Change:  20 August 2009
-" License:      public domain
-" Version:      1.4
+" Name:         accentedVim.vim
+" Author:       Cody SmithCripps
+"
+" Colour Scheme File, with functionality for easy editing 
 
 
 set background=dark
