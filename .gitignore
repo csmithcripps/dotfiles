@@ -3,5 +3,7 @@
 !.bashrc
 !.tmux.conf
 !.gitignore
+!.vim
+!.vim/
 !.vim/*
 !.vim/**
